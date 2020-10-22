@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch --config nightwatch.conf.js",
+    "test": "nightwatch --config nightwatch.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^85.0.0",
+    "nightwatch": "^1.3.7"
+  }
+}
